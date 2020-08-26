@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Title Asserted]]>
+    </line>
+    <line>
+      <![CDATA[Activity 2 completed.]]>
+    </line>
+    <line>
+      <![CDATA[Navigated to Homepage successfully.]]>
+    </line>
+    <line>
+      <![CDATA[Identifying Lead phone number successful.]]>
+    </line>
+    <line>
+      <![CDATA[navigated to Activities Sucessfully]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2020-08-27T03:08:31 IST" name="Suite" finished-at="2020-08-27T03:10:37 IST" duration-ms="125603">
+    <groups>
+    </groups>
+    <test started-at="2020-08-27T03:08:31 IST" name="Test" finished-at="2020-08-27T03:10:37 IST" duration-ms="125603">
+      <class name="CRM.loginBase">
+        <test-method is-config="true" signature="login()[pri:0, instance:CRM.loginBase@f5ac9e4]" started-at="2020-08-27T03:08:39 IST" name="login" finished-at="2020-08-27T03:08:54 IST" duration-ms="14961" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="homePage_Verification()[pri:0, instance:CRM.loginBase@f5ac9e4]" started-at="2020-08-27T03:08:54 IST" name="homePage_Verification" finished-at="2020-08-27T03:08:54 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Navigated to Homepage successfully.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- homePage_Verification -->
+        <test-method signature="verifyNavColor()[pri:0, instance:CRM.loginBase@f5ac9e4]" started-at="2020-08-27T03:08:54 IST" name="verifyNavColor" finished-at="2020-08-27T03:08:54 IST" duration-ms="38" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNavColor -->
+        <test-method is-config="true" signature="tearDownTest()[pri:0, instance:CRM.loginBase@f5ac9e4]" started-at="2020-08-27T03:10:33 IST" name="tearDownTest" finished-at="2020-08-27T03:10:37 IST" duration-ms="4354" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTest -->
+      </class> <!-- CRM.loginBase -->
+      <class name="CRM.VerfiyObjects">
+        <test-method is-config="true" signature="login()[pri:0, instance:CRM.VerfiyObjects@123ef382]" started-at="2020-08-27T03:08:54 IST" name="login" finished-at="2020-08-27T03:09:08 IST" duration-ms="13887" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="leadAlert()[pri:0, instance:CRM.VerfiyObjects@123ef382]" started-at="2020-08-27T03:09:08 IST" name="leadAlert" finished-at="2020-08-27T03:09:19 IST" duration-ms="11430" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Identifying Lead phone number successful.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- leadAlert -->
+        <test-method is-config="true" signature="tearDownTest()[pri:0, instance:CRM.VerfiyObjects@123ef382]" started-at="2020-08-27T03:09:19 IST" name="tearDownTest" finished-at="2020-08-27T03:09:24 IST" duration-ms="4366" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTest -->
+        <test-method is-config="true" signature="login()[pri:0, instance:CRM.VerfiyObjects@123ef382]" started-at="2020-08-27T03:09:24 IST" name="login" finished-at="2020-08-27T03:09:39 IST" duration-ms="14990" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="verifyActivity()[pri:0, instance:CRM.VerfiyObjects@123ef382]" started-at="2020-08-27T03:09:39 IST" name="verifyActivity" finished-at="2020-08-27T03:09:41 IST" duration-ms="1996" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[navigated to Activities Sucessfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyActivity -->
+        <test-method is-config="true" signature="tearDownTest()[pri:0, instance:CRM.VerfiyObjects@123ef382]" started-at="2020-08-27T03:09:41 IST" name="tearDownTest" finished-at="2020-08-27T03:09:41 IST" duration-ms="213" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTest -->
+      </class> <!-- CRM.VerfiyObjects -->
+      <class name="CRM.DataScraping">
+        <test-method is-config="true" signature="loginCRM(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:CRM.DataScraping@dbf57b3]" started-at="2020-08-27T03:09:41 IST" name="loginCRM" finished-at="2020-08-27T03:09:53 IST" duration-ms="12410" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pa$$w0rd]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[https://alchemy.hguy.co/crm]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginCRM -->
+        <test-method signature="accountData()[pri:0, instance:CRM.DataScraping@dbf57b3]" started-at="2020-08-27T03:09:53 IST" name="accountData" finished-at="2020-08-27T03:10:00 IST" duration-ms="6997" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accountData -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:CRM.DataScraping@dbf57b3]" started-at="2020-08-27T03:10:00 IST" name="afterMethod" finished-at="2020-08-27T03:10:05 IST" duration-ms="4359" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="loginCRM(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:CRM.DataScraping@dbf57b3]" started-at="2020-08-27T03:10:05 IST" name="loginCRM" finished-at="2020-08-27T03:10:17 IST" duration-ms="12334" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pa$$w0rd]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[https://alchemy.hguy.co/crm]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginCRM -->
+        <test-method signature="leadsData()[pri:0, instance:CRM.DataScraping@dbf57b3]" started-at="2020-08-27T03:10:17 IST" name="leadsData" finished-at="2020-08-27T03:10:24 IST" duration-ms="6781" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- leadsData -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:CRM.DataScraping@dbf57b3]" started-at="2020-08-27T03:10:24 IST" name="afterMethod" finished-at="2020-08-27T03:10:28 IST" duration-ms="4373" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- CRM.DataScraping -->
+      <class name="CRM.IntialChecks">
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:CRM.IntialChecks@59fd97a8]" started-at="2020-08-27T03:08:31 IST" name="openBrowser" finished-at="2020-08-27T03:08:39 IST" duration-ms="7586" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://alchemy.hguy.co/crm]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="footerImage()[pri:0, instance:CRM.IntialChecks@59fd97a8]" started-at="2020-08-27T03:08:54 IST" name="footerImage" finished-at="2020-08-27T03:08:54 IST" duration-ms="57" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- footerImage -->
+        <test-method signature="getTitle()[pri:0, instance:CRM.IntialChecks@59fd97a8]" started-at="2020-08-27T03:08:54 IST" name="getTitle" finished-at="2020-08-27T03:08:54 IST" duration-ms="22" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Title Asserted]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- getTitle -->
+        <test-method signature="headerImage()[pri:0, instance:CRM.IntialChecks@59fd97a8]" started-at="2020-08-27T03:08:54 IST" name="headerImage" finished-at="2020-08-27T03:08:54 IST" duration-ms="48" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Activity 2 completed.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- headerImage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:CRM.IntialChecks@59fd97a8]" started-at="2020-08-27T03:10:28 IST" name="tearDown" finished-at="2020-08-27T03:10:33 IST" duration-ms="4332" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- CRM.IntialChecks -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

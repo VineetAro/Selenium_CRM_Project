@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="Suite">
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+	</listeners>
+	<test name="Test">
+		<parameter name="username" value="admin" />
+		<parameter name="password" value="pa$$w0rd" />
+		<parameter name="baseURL" value="https://alchemy.hguy.co/crm" />
+		<classes>
+<class name = 'CRM.IntialChecks'/>
+  <class name = 'CRM.loginBase'/>
+  <class name = 'CRM.VerfiyObjects'/>
+			<class name="CRM.DataScraping" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
+
